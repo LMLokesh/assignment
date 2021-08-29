@@ -1,0 +1,143 @@
+.mainblk{
+    position: relative;
+    top: 5vh;
+    text-align: center;
+}
+.mainblk-1{
+    text-align: center;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 3rem 20px;
+}
+.main-title{
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 1rem;
+    color:rgb(54, 54, 54)
+}
+.sub-title{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 1rem;
+}
+
+.mainblk-content{
+    display: flex;
+    flex-direction: column;
+}
+.mainblk-2{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+    margin:3.5rem auto;
+}
+.mainblk-2-wrapper{
+    margin:0.5rem;
+    padding: 0 20px;
+    text-align:center;
+}
+.mainblk-2-wrapper img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 50px;
+    object-fit: contain;
+    opacity: 0.4;
+    filter: grayscale(100%);
+}
+.content-links{
+    flex:1;
+    list-style-type: none;
+    margin-top:10px;
+    /* display:flex; */
+    /* flex-direction: column; */
+    
+}
+.mainblk-img-wrapper{
+    position: relative;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 10px 35px;
+}
+.mainblk-links{
+    flex:1;
+    display:flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.mainblk-links h2{
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+}
+
+.mainblk-links ul{
+    margin:0px 15px 10px;
+}
+.mainblk-links ul li{
+    margin-bottom: 7px;
+}
+.content-links li .sub{
+    color:rgb(190, 190, 190);
+    font-size: 10px;
+}
+.mainblk-links ul li a{
+    display: inline;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(18, 139, 252);
+}
+.mainblk-links ul li a img{
+    width: 15px;
+    margin-right: 10px;
+}
+.mainblk-img{
+    width: 100%;
+}
+@media (min-width: 600px){
+    .sub-title{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 1.5rem;
+    }
+    .mainblk-content{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .mainblk-img-container{
+        margin-right: 30px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 600px){
+    .main-title{
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 0.75rem;
+    }
+    .content-links{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .content-links li{
+        min-width:20%;
+        margin: auto 10px;
+        padding:5px 10px;
+    }
+    .mainblk-2{
+        justify-content: flex-start;
+        padding:0;
+        margin:0.5rem auto;
+    }
+    .mainblk-links ul li{
+        margin-bottom: 0px;
+    }
+}

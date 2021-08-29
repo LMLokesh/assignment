@@ -1,0 +1,5 @@
+.btn{
+    background-color: attr(data-background-color);
+    color: attr(data-color);
+    border-radius: 3px;
+}
