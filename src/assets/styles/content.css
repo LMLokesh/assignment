@@ -213,6 +213,13 @@
         line-height: 0px;
         padding-top: 5px;
     }
+    .content-footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     .content-footer h3{
         font-size: 20px;
         line-height: 24px;
